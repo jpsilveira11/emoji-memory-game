@@ -48,5 +48,6 @@ h2{
 }
 .reset:focus{
     color:#fff;
-    background-color:#e4b980;
+    /* background-color:#e4b980; */
+    background-color: #daa520;
 }
