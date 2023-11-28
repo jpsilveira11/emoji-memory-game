@@ -18,8 +18,9 @@ Pequeno projeto criando um jogo da memória usando caracteres de emojis como ilu
 
 ### Modificações
 
-- Adição do favicon;
-- Alteração na identidade visual e nos emojis selecionados
+- Adição de um favicon;
+- Favicon aleatório a cada reload na página;
+- Alteração na identidade visual e nos emojis selecionados.
 
 ### Contribuições
 
