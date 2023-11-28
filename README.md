@@ -11,10 +11,10 @@ Pequeno projeto criando um jogo da memória usando caracteres de emojis como ilu
 - JavaScript para a lógica de programação e interações;
 - Imagem de background utilizada está disponível em <a href="https://www.freepik.com/free-vector/positive-reactions-with-empty-space-background_10503421.htm#query=emoji%20background&position=2&from_view=keyword&track=ais&uuid=c46f82c1-1712-4de4-b8e0-384c6e5e85c7">freepik.com</a>
 
-  ### Como Jogar
+### Como Jogar
 
-  - Clique em duas cartas, você deve encontrar o par da primeira carta selecionada;
-  - Ao encontrar todos os pares, você vence o jogo e poderá reiniciar clicando no botão de reset no canto inferior da página.
+- Clique em duas cartas, você deve encontrar o par da primeira carta selecionada;
+- Ao encontrar todos os pares, você vence o jogo e poderá reiniciar clicando no botão de reset no canto inferior da página.
 
 ### Modificações
 
