@@ -20,5 +20,10 @@ body{
     #fdeff9 100%); */
     backdrop-filter: blur(10px);
     padding:40px 60px;
+}
 
+h2{
+    font-size: 3em;
+    color:#fff;
+    /* text-transform: uppercase; */
 }
