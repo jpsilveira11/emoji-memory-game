@@ -49,6 +49,6 @@ function handleClick(){
 const favicon=document.querySelector("text");
 function getRandomFavicon(){
     icon=emojis[(Math.floor(Math.random() * emojis.length))];
-    favicon.textContent=icon;
+    favicon.textContent='😎';
 }
 getRandomFavicon();
