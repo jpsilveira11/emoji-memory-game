@@ -46,12 +46,13 @@ function handleClick(){
     }
 }
 
-const favicon=document.querySelector(
-    `head > link[rel='icon'] > svg > text`
+const favicon = document.querySelector(
+    `head > link[rel='icon']`
   );
+
+  
 function getRandomFavicon(){
     icon=emojis[(Math.floor(Math.random() * emojis.length))];
-    // favicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
-    favicon.textContent=icon;
+    linkForFavicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
 }
 getRandomFavicon();
