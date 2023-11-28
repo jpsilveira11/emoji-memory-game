@@ -51,6 +51,7 @@ const favicon=document.querySelector(
   );
 function getRandomFavicon(){
     icon=emojis[(Math.floor(Math.random() * emojis.length))];
-    favicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
+    // favicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
+    favicon.textContent=icon;
 }
 getRandomFavicon();
