@@ -25,7 +25,7 @@ function matched(){
 }
 
 function handleClick(){
-    if(openCards<2){
+    if(openCards.length<2){
         this.classList.add("boxOpen");
         openCards.push(this);
     }
