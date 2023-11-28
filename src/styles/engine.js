@@ -29,6 +29,10 @@ function matchVerify(){
         openCards[1].classList.remove("boxOpen");
     }
     openCards=[];
+
+    if(document.querySelectorAll("boxMatched").length===emojis.length){
+        alert("Victory!👍");
+    }
 }
 
 function handleClick(){
