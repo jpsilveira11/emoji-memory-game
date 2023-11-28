@@ -30,7 +30,7 @@ function matchVerify(){
     }
     openCards=[];
 
-    if(document.querySelectorAll("boxMatched").length===emojis.length){
+    if(document.querySelectorAll(".boxMatched").length===emojis.length){
         alert("Victory!👍");
     }
 }
