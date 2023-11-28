@@ -46,21 +46,10 @@ function handleClick(){
     }
 }
 
-const favicon = document.querySelector(
-    `head > link[rel='icon']`
-  );
-  function faviconTemplate(string, icon) {
-    return `
-      <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
-        <text y=%22.9em%22 font-size=%2290%22>
-          ${icon}
-        </text>
-      </svg>
-    `.trim();
-  }
-
+const favicon=document.getElementById('#favicon');
 function getRandomFavicon(){
     icon=emojis[(Math.floor(Math.random() * emojis.length))];
-    favicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
+    // favicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
+    favicon.textContent=icon;
 }
 getRandomFavicon();
