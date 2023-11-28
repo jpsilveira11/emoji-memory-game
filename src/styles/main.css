@@ -71,7 +71,7 @@ h2{
 .boxOpen::after{
     transform:rotateY(180deg);
 }
-.boxMatch::after{
+.boxMatched::after{
     transform:rotateY(180deg);
 }
 

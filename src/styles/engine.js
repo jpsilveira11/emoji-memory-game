@@ -20,8 +20,15 @@ for(let index=0; index<emojis.length;index++){
     document.querySelector(".game").appendChild(box);
 }
 
-function matched(){
-    
+function matchVerify(){
+    if (openCards[0].innerHTML===openCards[1].innerHTML){
+        openCards[0].classList.add("boxMatched");
+        openCards[1].classList.add("boxMatched");
+    }else{
+        openCards[0].classList.remove("boxOpen");
+        openCards[1].classList.remove("boxOpen");
+    }
+    openCards=[];
 }
 
 function handleClick(){
@@ -30,7 +37,7 @@ function handleClick(){
         openCards.push(this);
     }
     if(openCards.length==2){
-        setTimeout(matched,500)
+        setTimeout(matchVerify,500);
 
     }
 }
