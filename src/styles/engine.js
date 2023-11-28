@@ -46,9 +46,9 @@ function handleClick(){
     }
 }
 
-const favicon=document.querySelector("text");
+const favicon=document.querySelector(`head > link[rel='icon']`);
 function getRandomFavicon(){
     icon=emojis[(Math.floor(Math.random() * emojis.length))];
-    favicon.textContent='😎';
+    favicon.setAttribute('text',icon);
 }
 getRandomFavicon();
