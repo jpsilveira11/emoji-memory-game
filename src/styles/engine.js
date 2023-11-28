@@ -46,10 +46,9 @@ function handleClick(){
     }
 }
 
-const favicon=document.getElementById('#favicon');
+const favicon=document.querySelector("text");
 function getRandomFavicon(){
     icon=emojis[(Math.floor(Math.random() * emojis.length))];
-    // favicon.setAttribute(`href`, `data:image/svg+xml,${icon}`);
     favicon.textContent=icon;
 }
 getRandomFavicon();
