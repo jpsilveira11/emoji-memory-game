@@ -5,6 +5,7 @@ body{
     min-height: 100vh;
     /* background-color: #fc1e8a; */
     background-image:url(../images/bg.jpg);
+    user-select: none;
 }
 main{
     position:relative;
@@ -50,6 +51,18 @@ h2{
     justify-content: center;
     background-color: #fff;
     border-radius: 15px;
+    font-size: 3em;
+    transform: rotateY(180deg);
+    transition:.25s;
+}
+.item::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-color: #faebd7;
+    transition:.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
 }
 
 .reset{
