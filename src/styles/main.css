@@ -41,7 +41,7 @@ h2{
     letter-spacing: .1em;
     cursor:pointer;
     font-weight: 600;
-    transition: all .3s ease-out;
+    transition: all .1s ease-out;
 }
 .reset:hover{
     background-color: #faebd7;
