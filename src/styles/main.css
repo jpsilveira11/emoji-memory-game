@@ -65,6 +65,15 @@ h2{
     transform: rotateY(0deg);
     backface-visibility: hidden;
 }
+.item.boxOpen{
+    transform:rotateY(0deg);
+}
+.boxOpen::after{
+    transform:rotateY(180deg);
+}
+.boxMatch::after{
+    transform:rotateY(180deg);
+}
 
 .reset{
     padding:15px 20px;
